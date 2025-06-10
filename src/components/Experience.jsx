@@ -4,16 +4,25 @@ function Experience() {
       <h1 className="text-2xl font-bold pb-10">Test Cases</h1>
       <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
         <div className="flex flex-col justify-between">
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.hubspot.net%2Fhubfs%2F145335%2Fblogphotos_Amanda%2F5_Powerful_Examples_of_B2B_Product_Service_Pages_-_WaveOC.png&f=1&nofb=1&ipt=d47fec60768e93b36b30ae8484f527c21074857dee304a4c826b6038e6af8b42"
-            alt="Service Site"
-            className="w-full aspect-3/2 object-cover border-4 border-black rounded-lg"
-          />
-          <p className="text-2xl text-left mt-4">Service Site</p>
+          <a
+            href="https://erik-ang.github.io/Mock-Service-Site/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <iframe
+              src="https://erik-ang.github.io/Mock-Service-Site/"
+              title="Service Site"
+              className="w-full aspect-[3/2] border-4 border-black rounded-lg pointer-events-none"
+              loading="lazy"
+            />
+          </a>
+          <p className="text-2xl text-left mt-4">Mock Service Site</p>
           <hr className="border-t-2 border-black mr-20" />
           <text className="text-xl">
-            &emsp;This is a placeholder for the service site. It will be
-            replaced with actual content in the future.
+            &emsp;This is a mock service site. This website was made for a
+            school assignment for a UI/UX class and simulates a barber shop
+            service site.
           </text>
         </div>
         <div className="flex flex-col justify-between">
