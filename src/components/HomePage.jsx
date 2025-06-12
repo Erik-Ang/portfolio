@@ -6,7 +6,13 @@ function HomePage() {
       <div className="w-full h-1/5">
         <div className="w-full h-1/5 bg-black"></div>
         <div className="w-full h-4/5 pt-20 px-20 bg-white font-bold flex flex-col lg:flex-row justify-between items-center ">
-          <p className="text-6xl">EA</p>
+          <a
+            href="#"
+            className="text-6xl cursor-pointer no-underline hover:no-underline text-black hover:text-black"
+            style={{ color: 'black', textDecoration: 'none' }}
+          >
+            EA
+          </a>
           <a href="#workflow" className="text-2xl text-black cursor-pointer">
             Workflow and Experience
           </a>
