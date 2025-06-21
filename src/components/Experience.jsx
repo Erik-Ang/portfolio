@@ -26,16 +26,25 @@ function Experience() {
           </text>
         </div>
         <div className="flex flex-col justify-between">
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.eef.edu.gr%2Fmedia%2F9597%2Fpong-game-2023_1280x800.jpg%3Fanchor%3Dcenter%26mode%3Dcrop%26width%3D1280%26height%3D800%26rnd%3D133185056480000000&f=1&nofb=1&ipt=ba2b6a9f6adfb1d639a962b94764f3002f5b96f980899e9c4b69e40f8cec0df5"
-            alt="Small Game"
-            className="w-full aspect-3/2 object-cover border-4 border-black rounded-lg"
-          />
+          <a
+            href="https://erik-ang.github.io/Memory-Game/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <iframe
+              src="https://erik-ang.github.io/Memory-Game/"
+              title="Memory Game"
+              className="w-full aspect-[3/2] border-4 border-black rounded-lg pointer-events-none"
+              loading="lazy"
+            />
+          </a>
           <p className="text-2xl text-left mt-4">Small Game</p>
           <hr className="border-t-2 border-black mr-20" />
           <text className="text-xl">
-            &emsp;This is a placeholder for the small game. It will be replaced
-            with actual content in the future.
+            &emsp;This is a basic memory game. It was made for a school
+            assignment for a UI/UX class and is a simple game where you are
+            shown marked squares and you have to remember where they are.
           </text>
         </div>
         <div className="flex flex-col justify-between">
