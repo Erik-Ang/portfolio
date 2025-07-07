@@ -48,16 +48,24 @@ function Experience() {
           </text>
         </div>
         <div className="flex flex-col justify-between">
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsagartech.co.in%2Fblogs%2Fwp-content%2Fuploads%2F2024%2F08%2FEcommerce-Website-Design-Feature-Image-scaled.webp&f=1&nofb=1&ipt=dc54cfd06229f54e6f533d57e0a88253454f987cfc8f7a18115b54970d0273d0"
-            alt="E-Commerce Site"
-            className="w-full aspect-3/2 object-cover border-4 border-black rounded-lg"
-          />
+          <a
+            href="https://asure37.github.io/ecommerce2/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <iframe
+              src="https://asure37.github.io/ecommerce2/"
+              title="E-Commerce Site"
+              className="w-full aspect-[3/2] border-4 border-black rounded-lg pointer-events-none"
+              loading="lazy"
+            />
+          </a>
           <p className="text-2xl text-left mt-4">E-Commerce Site</p>
           <hr className="border-t-2 border-black mr-20" />
           <text className="text-xl">
-            &emsp;This is a placeholder for the service site. It will be
-            replaced with actual content in the future.
+            &emsp;This is a mock e-commerce site for the uOttawa Computer
+            Science Student Association's merchandise.
           </text>
         </div>
         <div className="flex flex-col justify-between">
