@@ -69,16 +69,24 @@ function Experience() {
           </text>
         </div>
         <div className="flex flex-col justify-between">
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.dashthis.com%2Fmedia%2F5039%2F1-what-is-a-ga-dashboard-copy.jpg&f=1&nofb=1&ipt=31c76a671ffdfbf47c4ee6d092fe1ed9c4890deb1a19fbbfd49005194205796e"
-            alt="Analytics Site"
-            className="w-full aspect-3/2 object-cover border-4 border-black rounded-lg"
-          />
-          <p className="text-2xl text-left mt-4">Analytics Site</p>
+          <a
+            href="https://erik-ang.github.io/Mock-Dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <iframe
+              src="https://erik-ang.github.io/Mock-Dashboard/"
+              title="E-Commerce Site"
+              className="w-full aspect-[3/2] border-4 border-black rounded-lg pointer-events-none"
+              loading="lazy"
+            />
+          </a>
+          <p className="text-2xl text-left mt-4">Mock Dashboard</p>
           <hr className="border-t-2 border-black mr-20" />
           <text className="text-xl">
-            &emsp;This is a placeholder for the analytics site. It will be
-            replaced with actual content in the future.
+            &emsp;This is a mock dashboard for enrolment in Nova Scotia
+            universities. This was made for a school project.
           </text>
         </div>
       </div>
