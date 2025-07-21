@@ -49,23 +49,24 @@ function Experience() {
         </div>
         <div className="flex flex-col justify-between">
           <a
-            href="https://asure37.github.io/ecommerce2/"
+            href="https://erik-ang.github.io/Mock-Dashboard/"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
           >
             <iframe
-              src="https://asure37.github.io/ecommerce2/"
-              title="E-Commerce Site"
+              src="https://erik-ang.github.io/Mock-Dashboard/"
+              title="Memory Game"
               className="w-full aspect-[3/2] border-4 border-black rounded-lg pointer-events-none"
               loading="lazy"
             />
           </a>
-          <p className="text-2xl text-left mt-4">E-Commerce Site</p>
+          <p className="text-2xl text-left mt-4">Mock Dashboard</p>
           <hr className="border-t-2 border-black mr-20" />
           <text className="text-xl">
-            &emsp;This is a mock e-commerce site for the uOttawa Computer
-            Science Student Association's merchandise.
+            &emsp;This is a mock dashboard. It was made for a school assignment
+            for a UI/UX class and simulates a dashboard interface for
+            universities in Nova Scotia.
           </text>
         </div>
         <div className="flex flex-col justify-between">
